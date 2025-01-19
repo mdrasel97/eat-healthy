@@ -42,6 +42,10 @@
     text-align: center;
 }
 
+.orange_color{
+    color: rgb(251, 162, 79);
+}
+
 /* banner design  */
 
 main{
@@ -122,6 +126,22 @@ main > section{
     width: 100%;
 }
 
+/* subscribe_container */
+.subscribe_container{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    padding: 60px 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px 0px;
+}
+
 
 /* mobile responsive design  */
 @media all and (max-width: 576px) {
@@ -148,4 +168,10 @@ main > section{
     .recip_card_container{
         flex-direction: column;
     }
+    .subscribe_container{
+        flex-direction: column;
+        padding: 40px;
+        text-align: center;
+    }
+
 }

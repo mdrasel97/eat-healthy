@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+/* shared work  */
+
+.btn_primary{
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 0.90rem;
+    font-weight: 600;
+    line-height: 130%;
+    border: none;
+    padding: 12px 15px;
+    margin: 15px 0px;
+}
+.hadding_primary{
+
+}
+.paragraph_primary{
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.text-align{
+    text-align: center;
+}
+
+/* banner design  */
+
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.banner{
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_hadding{
+    font-family: Montserrat;
+    color: #575757;
+    font-size: 2.80rem;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -2%;
+}
+
+.banner_img{
+    width: 50%;
+    background-image: url("./images/shapes/Group\ 8450.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_img img{
+    width: 95%;
+    margin-left: -30px;
+}
